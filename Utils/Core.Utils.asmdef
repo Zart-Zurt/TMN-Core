@@ -1,0 +1,17 @@
+{
+    "name": "Core.Utils",
+    "rootNamespace": "Core.Utils",
+    "references": [
+        "GUID:d0130fcf554efd349aa92bf5f315f25d",
+        "GUID:e419ed00dfa40b743b8b31f5d96d24ee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

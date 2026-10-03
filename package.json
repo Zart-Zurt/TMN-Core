@@ -1,0 +1,15 @@
+{
+  "name": "com.tmn.core",
+  "version": "1.0.0",
+  "displayName": "TMN Core Framework",
+  "description": "Core architecture framework containing EventBus, SaveSystem, Localization, Audio, Input, Pooling, Settings UI, Singletons, and Utilities.",
+  "unity": "6000.0",
+  "author": {
+    "name": "TMN",
+    "email": "yetkintmn@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.18.0",
+    "com.unity.ugui": "2.0.0"
+  }
+}

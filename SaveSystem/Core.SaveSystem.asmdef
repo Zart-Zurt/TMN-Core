@@ -1,0 +1,17 @@
+{
+    "name": "Core.SaveSystem",
+    "rootNamespace": "Core.Save",
+    "references": [
+        "GUID:20c33fc2a105f5744bad4a4c2f65bc4e",
+        "GUID:d0130fcf554efd349aa92bf5f315f25d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
