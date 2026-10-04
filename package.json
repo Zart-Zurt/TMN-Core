@@ -1,6 +1,6 @@
 {
   "name": "com.tmn.core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "TMN Core Framework",
   "description": "Core architecture framework containing EventBus, SaveSystem, Localization, Audio, Input, Pooling, Settings UI, Singletons, and Utilities.",
   "unity": "6000.0",

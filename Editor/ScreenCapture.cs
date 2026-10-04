@@ -3,7 +3,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace TMNLibrary.Editor
+namespace Core.Editor
 {
     public class EditorScreenCapture : EditorWindow
     {

@@ -2,6 +2,14 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.0.3] - 2026-10-05
+### Changed
+- Modernized `MonoSingleton<T>` with `OnDestroy` reference cleanup and `HasInstance` check.
+- Consolidated Editor tools (`GitToolbarButton`, `ScreenCapture`) into root `Editor/` folder under `Core.Editor` assembly.
+- Removed obsolete `TMNLibraryEditor.asmdef`.
+- Moved `EasyMethods` to `Core.Utils` with backward compatibility support for `TMNLib`.
+- Cleaned up unused external assembly references from `TMNLibrary.asmdef`.
+
 ## [1.0.2] - 2026-10-04
 ### Removed
 - Removed legacy `TMNLibrary.PoolManager` to eliminate type ambiguity with `Core.Pooling.PoolManager`.

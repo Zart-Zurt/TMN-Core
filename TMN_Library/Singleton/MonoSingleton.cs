@@ -2,29 +2,48 @@ using UnityEngine;
 
 namespace TMNLibrary.Singleton
 {
-    public class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         private static T _instance;
+
+        public static bool HasInstance
+        {
+            get
+            {
+                return _instance != null;
+            }
+        }
 
         public static T Instance
         {
             get
             {
-                if (!_instance)
+                if (_instance == null)
+                {
                     _instance = FindAnyObjectByType<T>();
+                }
+
                 return _instance;
             }
         }
 
         protected virtual void Awake()
         {
-            if (_instance && _instance != this)
+            if (_instance != null && _instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
 
-            _instance = (T)this;
+            _instance = this as T;
+        }
+
+        protected virtual void OnDestroy()
+        {
+            if (_instance == this)
+            {
+                _instance = null;
+            }
         }
     }
 }

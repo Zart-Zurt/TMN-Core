@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace TMNLib
+namespace Core.Utils
 {
     public static class EasyMethods
     {
@@ -227,6 +227,22 @@ namespace TMNLib
             var color =  item.color;
             color.a = alpha;
             item.color = color;
+        }
+    }
+}
+
+namespace TMNLib
+{
+    public static class EasyMethods
+    {
+        public static bool IsEqualV3(Vector3 v1, Vector3 v2, float minDistance)
+        {
+            return Core.Utils.EasyMethods.IsEqualV3(v1, v2, minDistance);
+        }
+
+        public static string MoneyTextConverter(int moneyAmount)
+        {
+            return Core.Utils.EasyMethods.MoneyTextConverter(moneyAmount);
         }
     }
 }
