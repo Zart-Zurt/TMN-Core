@@ -2,6 +2,10 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.0.1] - 2026-10-04
+### Added
+- `CorePackageUpdaterWindow`: Unity Editor Window and Quick Update menu item for one-click updates to latest Core package from GitHub or local mode.
+
 ## [1.0.0] - 2026-10-04
 ### Added
 - Type-safe, decoupled `EventBus` architecture.
