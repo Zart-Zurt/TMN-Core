@@ -2,6 +2,10 @@
 
 All notable changes to this package will be documented in this file.
 
+## [1.0.4] - 2026-10-07
+### Removed
+- Removed obsolete Google Sheets synchronization tools (`DataSyncEditorWindow` and `LocalizationSyncEditorWindow`) in favor of PentaCore backend services.
+
 ## [1.0.3] - 2026-10-05
 ### Changed
 - Modernized `MonoSingleton<T>` with `OnDestroy` reference cleanup and `HasInstance` check.
