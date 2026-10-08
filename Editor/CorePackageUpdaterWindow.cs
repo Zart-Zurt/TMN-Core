@@ -23,7 +23,7 @@ namespace Core.Editor
         private MessageType _statusMessageType = MessageType.Info;
         private bool _isBusy;
 
-        [MenuItem("ZZEngine/TMN Core/Package Updater Window", priority = 100)]
+        [MenuItem("ZZEngine/Packages/TMN Core/Package Updater Window", priority = 50)]
         public static void ShowWindow()
         {
             var window = GetWindow<CorePackageUpdaterWindow>("TMN Core Updater");
@@ -31,7 +31,7 @@ namespace Core.Editor
             window.Show();
         }
 
-        [MenuItem("ZZEngine/TMN Core/Quick Update to Latest", priority = 101)]
+        [MenuItem("ZZEngine/Packages/TMN Core/Quick Update to Latest", priority = 51)]
         public static void QuickUpdateToLatest()
         {
             if (_addRequest != null && !_addRequest.IsCompleted)
