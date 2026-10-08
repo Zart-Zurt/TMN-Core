@@ -9,7 +9,7 @@ namespace Core.Editor
     public class CorePackageUpdaterWindow : EditorWindow
     {
         private const string PackageId = "com.tmn.core";
-        private const string GitRepositoryUrl = "https://github.com/Zart-Zurt/TMN-Core.git";
+        private const string GitRepositoryUrl = "https://github.com/Zart-Zurt/TMNCore.git";
         private const string LocalPackageUrl = "file:../../TMN-Core";
 
         private static AddRequest _addRequest;
